@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_first_app/screens/home_screen.dart';
+import 'package:my_first_app/screens/dynamic_screen.dart';
 import 'package:my_first_app/widgets/custom_text_field.dart';
 import 'package:my_first_app/widgets/primary_button.dart';
 
@@ -22,7 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => HomeScreen(email: email)),
+      MaterialPageRoute(builder: (context) => DynamicScreen()),
     );
   }
 
